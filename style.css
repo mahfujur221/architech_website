@@ -218,12 +218,3 @@ main > section{
     .features,
     .teams{
         flex-direction: column;
-    }
-
-    .team-img-container, 
-    .facts-container, 
-    .sponsor-companies
-    {
-        grid-template-columns: 1fr;
-    }
-
