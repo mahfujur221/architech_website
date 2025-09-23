@@ -254,3 +254,16 @@ main > section{
     }
     .our-features{
         margin: 50px auto;
+    }
+
+    .sponsor-companies, .facts-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        justify-items: center;
+    }
+
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}
